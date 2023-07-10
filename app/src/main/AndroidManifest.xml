@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sepatu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:label="Katalog Sepatu"
+        android:theme="@style/Theme.Sepatu">
+        <activity android:name="com.example.sepatu.About"></activity>
+        <activity android:name="com.example.sepatu.Nike4" />
+        <activity android:name="com.example.sepatu.Nike3" />
+        <activity android:name="com.example.sepatu.Nike2" />
+        <activity android:name="com.example.sepatu.Nike1" />
+        <activity android:name="com.example.sepatu.Vans4" />
+        <activity android:name="com.example.sepatu.Vans3" />
+        <activity android:name="com.example.sepatu.Vans2" />
+        <activity android:name="com.example.sepatu.Vans1" />
+        <activity android:name="com.example.sepatu.BrandNike" />
+        <activity android:name="com.example.sepatu.BrandVans" />
+        <activity android:name="com.example.sepatu.Converse2" />
+        <activity android:name="com.example.sepatu.Converse1" />
+        <activity android:name="com.example.sepatu.Converse3" />
+        <activity android:name="com.example.sepatu.Converse4" />
+        <activity android:name="com.example.sepatu.BrandConverse" />
+        <activity android:name="com.example.sepatu.AdidasWizard" />
+        <activity android:name="com.example.sepatu.AdidasVarner" />
+        <activity android:name="com.example.sepatu.AdidasSpeedex" />
+        <activity android:name="com.example.sepatu.AdidasBoxhog" />
+        <activity android:name="com.example.sepatu.AdidasClimacol" />
+        <activity android:name="com.example.sepatu.BrandAdidas" />
+        <activity android:name="com.example.sepatu.AdidasContestan" />
+        <activity android:name="com.example.sepatu.MenuUtama" />
+        <activity android:name="com.example.sepatu.MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
